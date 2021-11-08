@@ -1,9 +1,9 @@
 exports = async function() {
   // CHANGE THESE BELOW
-  const sourceCluster = "hot-cluster"; // service name of source/hot cluster
-  const targetCluster = "warm-cluster"; // service name of target/warm/cold cluster
+  const sourceCluster = "HotCluster"; // service name of source/hot cluster
+  const targetCluster = "WarmCluster"; // service name of target/warm/cold cluster
   const db = "sample_supplies";
-  const collection = "sales";
+  const collName = "sales";
   const dateField = "saleDate"; // field name for date field that will be queried on
   const archiveAfter = 60; // number of days after which to archive
   
